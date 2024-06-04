@@ -1,8 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center; /* Mengatur teks menjadi di tengah */
+    margin-top: 50px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #01bfff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +44,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #69d2ff;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -61,4 +72,28 @@
     color: green;
     font-size: 14px;
     margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+p strong {
+    color: #000;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
