@@ -1,3 +1,14 @@
+<?php
+// Menerima data dari form
+$classId = $_POST['class_id'];
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$borrow_time = $_POST['borrow_time'];
+$return_time = $_POST['return_time'];
+$notes = $_POST['notes'];
+$file = $_FILES['file'];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="uploadstyle.css">
 </head>
 <body>
+
 <div class="container">
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -44,8 +56,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $uploadOk = 0;
     }
 
-    echo "Terima Kasih telah merequest";
+    echo "Terima Kasih telah merequest!";
 }
 ?>
+    <h1>Request Peminjaman Kelas Berhasil!</h1>
+        <p><strong>ID Kelas:</strong> <?php echo htmlspecialchars($classId); ?></p>
+        <p><strong>Nama:</strong> <?php echo htmlspecialchars($name); ?></p>
+        <p><strong>Nomor Telepon:</strong> <?php echo htmlspecialchars($phone); ?></p>
+        <p><strong>Waktu Mulai Meminjam:</strong> <?php echo htmlspecialchars($borrow_time); ?></p>
+        <p><strong>Waktu Selesai Meminjam:</strong> <?php echo htmlspecialchars($return_time); ?></p>
+        <p><strong>Keterangan:</strong> <?php echo nl2br(htmlspecialchars($notes)); ?></p>
 </div>
+
 </body>
