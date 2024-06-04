@@ -7,6 +7,7 @@ $classes = [
         'schedule' => [
             'Senin 08:00 - 10:00',
             'Rabu 10:00 - 12:00'
+        
         ]
     ],
     [
@@ -16,6 +17,7 @@ $classes = [
         'schedule' => [
             'Selasa 09:00 - 11:00',
             'Kamis 13:00 - 15:00'
+        
         ]
     ],
     [
@@ -25,6 +27,7 @@ $classes = [
         'schedule' => [
             'Selasa 09:00 - 11:00',
             'Kamis 13:00 - 15:00'
+        
         ]
     ],
     [
@@ -34,6 +37,7 @@ $classes = [
         'schedule' => [
             'Selasa 09:00 - 11:00',
             'Kamis 13:00 - 15:00'
+        
         ]
     ],
     [
@@ -43,6 +47,17 @@ $classes = [
         'schedule' => [
             'Selasa 09:00 - 11:00',
             'Kamis 13:00 - 15:00'
+        
+        ]
+    ],
+    [
+        'id' => 6,
+        'name' => 'B202',
+        'description' => 'Ini adalah deskripsi untuk Kelas B202.',
+        'schedule' => [
+            'Selasa 09:00 - 11:00',
+            'Kamis 13:00 - 15:00'
+        
         ]
     ]
 ];
