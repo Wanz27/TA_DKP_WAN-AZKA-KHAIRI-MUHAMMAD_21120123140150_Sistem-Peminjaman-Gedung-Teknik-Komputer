@@ -52,8 +52,11 @@
                 <div class="room_info"> 
                     <h2>A201</h2>
                     <p>ini deskripsi</p>
-                    <h3>jam operasional:</h3>
-                    <a href="#" class="room_btn">Request Pinjam</a>
+                    <h3>jam operasional: </br>
+                        Senin 08:00 - 10:00 </br>
+                        Rabu 10:00 - 12:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 1</a>
                 </div>
             </div>
         
@@ -64,8 +67,11 @@
                 <div class="room_info"> 
                     <h2>A202</h2>
                     <p>ini deskripsi</p>
-                    <h3>jam operasional:</h3>
-                    <a href="#" class="room_btn">Request Pinjam</a>
+                    <h3>jam operasional: </br>
+                    Selasa 09:00 - 11:00 </br>
+                    Kamis 13:00 - 15:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 2</a>
                 </div>
             </div>
 
@@ -76,8 +82,11 @@
                 <div class="room_info"> 
                     <h2>B101</h2>
                     <p>ini deskripsi</p>
-                    <h3>jam operasional:</h3>
-                    <a href="#" class="room_btn">Request Pinjam</a>
+                    <h3>jam operasional: </br>
+                    Selasa 09:00 - 11:00 </br>
+                    Kamis 13:00 - 15:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 3</a>
                 </div>
             </div>
 
@@ -88,8 +97,11 @@
                 <div class="room_info"> 
                     <h2>B102</h2>
                     <p>ini deskripsi</p>
-                    <h3>jam operasional:</h3>
-                    <a href="#" class="room_btn">Request Pinjam</a>
+                    <h3>jam operasional: </br>
+                    Selasa 09:00 - 11:00 </br>
+                    Kamis 13:00 - 15:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 4</a>
                 </div>
             </div>
 
@@ -100,12 +112,43 @@
                 <div class="room_info"> 
                     <h2>B201</h2>
                     <p>ini deskripsi</p>
-                    <h3>jam operasional:</h3>
-                    <a href="#" class="room_btn">Request Pinjam</a>
+                    <h3>jam operasional: </br>
+                    Selasa 09:00 - 11:00 </br>
+                    Kamis 13:00 - 15:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 5</a>
+                </div>
+            </div>
+            <div class="room_card">
+                <div class="room_img"> 
+                    <img src="./img1.jpg">
+                </div>
+                <div class="room_info"> 
+                    <h2>B202</h2>
+                    <p>ini deskripsi</p>
+                    <h3>jam operasional: </br>
+                    Selasa 09:00 - 11:00 </br>
+                    Kamis 13:00 - 15:00
+                    </h3>
+                    <a href="#" class="room_btn">ID Kelas : 6</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer> 
+        <div class="footer_container"> 
+            <div class="footer_content"> 
+                <h3> Contact Us </h3>
+                <p>Email: admin@gmail.com</p>
+                <p>Phone: +628 1234 5678</p>
+                <p>Address: Computer Engineering</p>
+            </div>
+        </div>
+        <div class="bottom-bar"> 
+            <p>&copy; 2024 Computer Engineering . All rights reserved </p>
+        </div>
+    </footer>
 
 
 </body>
