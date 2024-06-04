@@ -154,7 +154,7 @@ section{
     text-align: center;
     margin: 10px auto 10px auto;
     font-size: 25px;
-    color: #fac031;
+    color: #012a56;
 }
 
 .room_box .room_card .room_info p{
@@ -178,4 +178,51 @@ section{
     padding: 8px 10px;
     margin: 20px 80px;
     transition: 0.3s;
+}
+
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+
+.footer_container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 33.3%;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer_content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    color: white;
+}
+
+.footer_content ul{
+    text-align: center;
+}
+
+.bottom-bar{
+    background: #30def1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p{
+    color: #120045;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
 }
